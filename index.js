@@ -1,4 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server');
+const sessions = require('./data/sessions.json');
 
 const typeDefs = gql`
 type Query {
